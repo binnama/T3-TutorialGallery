@@ -1,9 +1,13 @@
 # Create T3 App
 
+## To run:
+
+npx next dev
+
 ## TODO
 
-- [ ] Make it deploy (vercel postgres)
-- [ ] Scaffold basic UI with mock data
+- [x] Make it deploy (vercel postgres)
+- [x] Scaffold basic UI with mock data
 - [ ] Actually set up a database (vercel postgres)
 - [ ] Attach database to UI
 - [ ] Add authentication (w/ clerk)
