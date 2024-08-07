@@ -14,6 +14,7 @@ npx next dev
 - [x] Add authentication (w/ clerk)
 - [ ] Add image upload
 - [ ] 'taint' (server-only)
+- [ ] Use Next/Image component
 - [ ] Error management (w/ Sentry)
 - [ ] Routing/image page (parallel route)
 - [ ] Delete button (w/ Server Actions)
