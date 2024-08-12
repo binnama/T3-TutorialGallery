@@ -17,7 +17,8 @@ npx next dev
 - [x] Use Next/Image component
 - [x] Error management (w/ Sentry)
 - [x] Routing/image page (parallel route)
-- [ ] Fix upload button
+- [x] Fix upload button
+- [x] ShadUI (specifically toasts)
 - [ ] Delete button (w/ Server Actions)
 - [ ] Analytics (posthog)
 - [ ] Ratelimiting (upstash)
