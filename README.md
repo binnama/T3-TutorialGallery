@@ -21,4 +21,23 @@ npx next dev
 - [x] ShadUI (specifically toasts)
 - [x] Analytics (posthog)
 - [x] Delete button (w/ Server Actions)
-- [ ] Ratelimiting (upstash)
+- [x] Ratelimiting (upstash)
+
+### Challenges for later:
+
+- Fix the page layout for images of different resolutions
+- "Selecting" images on the gallery page
+- "infinite scroll"
+- Folders/albums
+
+### Div info
+
+- Tutorial video: [From 0 to Production - The Modern React Tutorial (RSCs, Next.js, Shadui, Drizzle, TS and more)](https://youtu.be/d5x0JCZbAJs?si=CVzBgDmMTmnT10L9)
+- Third-party apps:
+    - Vercel (https://vercel.com/)
+    - UploadThing (https://uploadthing.com/)
+    - Sentry (https://sentry.io/)
+    - Clerk (https://clerk.com/)
+    - Posthog (https://posthog.com/)
+    - Upstash (https://upstash.com)
+- Theo's git repo (https://github.com/t3dotgg/t3gallery)
