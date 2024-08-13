@@ -4,7 +4,7 @@ import Link from "next/link";
 import { db } from "~/server/db";
 import { getMyImages } from "~/server/queries";
 
-export const dynamic = "force-dynamic";
+//export const dynamic = "force-dynamic";
 
 async function Images() {
 
@@ -31,7 +31,6 @@ async function Images() {
 }
 
 export default async function HomePage() {
-
 
   return (
     <main className="">

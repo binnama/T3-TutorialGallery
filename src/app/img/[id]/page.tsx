@@ -1,6 +1,5 @@
 
-import { getImage } from "~/server/queries";
-import FullPageImageView from "~/components/full-image-page";
+import FullPageImageView from "~/common/full-image-page";
 
 export default function PhotoPage({
   params: { id: photoId },
@@ -11,5 +10,9 @@ export default function PhotoPage({
   const idAsNumber = Number(photoId);
   if (Number.isNaN(idAsNumber)) throw new Error("Invalid photo id");
 
-  return <FullPageImageView photoId={idAsNumber} />;
+  return (
+    <div className="flex h-full min-h-0 w-full min-w-0 overflow-y-hidden">
+      <FullPageImageView photoId={idAsNumber} />
+    </div>
+  );
 }
