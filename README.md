@@ -20,5 +20,5 @@ npx next dev
 - [x] Fix upload button
 - [x] ShadUI (specifically toasts)
 - [x] Analytics (posthog)
-- [ ] Delete button (w/ Server Actions)
+- [x] Delete button (w/ Server Actions)
 - [ ] Ratelimiting (upstash)
