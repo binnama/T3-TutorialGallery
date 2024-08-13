@@ -19,6 +19,6 @@ npx next dev
 - [x] Routing/image page (parallel route)
 - [x] Fix upload button
 - [x] ShadUI (specifically toasts)
-- [ ] Delete button (w/ Server Actions)
 - [ ] Analytics (posthog)
+- [ ] Delete button (w/ Server Actions)
 - [ ] Ratelimiting (upstash)
